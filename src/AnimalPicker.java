@@ -13,10 +13,16 @@ public class AnimalPicker {
 
         switch (animal) {
             case 2:
-                System.out.println("CAT ASCII ART HERE");
+                System.out.println(" _._     _,-'\"\"`-._\r\n" + //
+                                        "(,-.`._,'(       |\\`-/|\r\n" + //
+                                        "    `-.-' \\ )-`( , o o)\r\n" + //
+                                        "          `-    \\`_`\"'-");
                 break;
             default:
-                System.out.println("DOG ASCII ART HERE");
+                System.out.println("  __      _ \n" + //
+                                        "o\'\')}____// \n" + //
+                                        " `_/      ) \n" + //
+                                        " (_(_/-(_/");
         }
     }
 }
